@@ -1,0 +1,42 @@
+
+
+h1, h2 {
+  text-align: center;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+#meaning_logo {
+  display: grid;
+  width: 150px;
+  height: 150px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  overflow: hidden;
+  border-bottom: solid #f0f0f0 1px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #848484;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color: #c5c5c5;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  color: #c5c5c5;
+}
